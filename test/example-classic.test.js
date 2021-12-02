@@ -33,7 +33,7 @@ test.describe('Demo App - Classic', () => {
     // but then change the above URL to https://demo.applitools.com/index_v2.html
     // (for the 2nd run)
     
-    await page.goto('https://demo.applitools.com');
+    await page.goto('https://demo.applitools.com/index_v2.html');
 
     // Call Open on eyes to initialize a test session
 
